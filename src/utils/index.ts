@@ -14,8 +14,8 @@ import { TokenAddressMap } from '../state/lists/hooks'
 // import BigNumber from 'bignumber.js'
 export { default as formatAddress } from './formatAddress'
 
-export const bnToDec = (bn: BigNumber, decimals = 18): number => {
-  return bn.div(new BigNumber(10).pow(decimals)).toNumber()
+export const bnToDec = (bn: BigNumber): number => {
+  return bn.div(18).toNumber()
 }
 
 // Frm Swap

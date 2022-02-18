@@ -12,12 +12,12 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.talkcryptotome.com/#/swap', 
+        href: '/swap', 
       },
       {
         label: 'Liquidity',
         href:
-          'https://exchange.talkcryptotome.com/#/liquidity',
+          '/liquidity',
       },
     ],
   },

@@ -15,7 +15,6 @@ const Menu = (props) => {
 
     <UikitMenu
       account={account}
-     // showMenu={false}
       login={connect}
       logout={reset}
       isDark={isDark}
